@@ -9,6 +9,7 @@ const compChoose = document.querySelector('#computerChoose');
 const drawGame = () => {
     console.log("It's a tie");
     message.innerText = "It's a tie!";
+    message.style.background= "#081b31";
     
 }
 
