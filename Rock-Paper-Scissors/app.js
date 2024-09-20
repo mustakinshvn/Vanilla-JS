@@ -9,6 +9,7 @@ const compChoose = document.querySelector('#computerChoose');
 const drawGame = () => {
     console.log("It's a tie");
     message.innerText = "It's a tie!";
+    
 }
 
 const winGame = () => {
@@ -16,6 +17,7 @@ const winGame = () => {
     console.log("You win");
     userScr.innerText = userScore;
     message.innerText = "You win!";
+    message.style.background= "Green"; 
 
 }
 
@@ -24,6 +26,7 @@ const loseGame = () => {
     console.log("You lose");
     compScr.innerText =  computerScore;
     message.innerText = "You lose!";
+    message.style.background= "red"
 }
 
 const compChoice = () =>{
